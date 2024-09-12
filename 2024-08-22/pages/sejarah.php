@@ -1,0 +1,1 @@
+Sejarah smkn 2 buduran berdiri sejak 1945
