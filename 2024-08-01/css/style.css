@@ -1,0 +1,19 @@
+div{
+    margin: 50px;
+  }
+
+  .warna{
+    color: rgb(234, 15, 15);
+  }
+
+  .ukuran{
+    font-size: 50px;
+  }
+
+  .jenis{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .model{
+    font-weight: bold;
+  }
