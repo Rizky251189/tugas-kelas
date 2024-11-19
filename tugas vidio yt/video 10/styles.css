@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+div {
+    width: 70%;
+    margin: auto;
+}
+
+.content {
+    margin-top: 5%;
+}
+
+h1 {
+    color: blue;
+    border: 3px solid brown ;
+    position: sticky ;
+    top: 20px; ;
+}
+
+h2 {
+    color: red;
+    border: 1px dashed blue;
+    margin-bottom: 100px;
+}
+
+p {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+img{
+    border: 1px solid black;
+}
+
+#paragraf {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.huruf {
+    font-size: 1rem;
+}
+
+.warna {
+    background: cornflowerblue;
+}
+
+.bentuk {
+    font-style: italic;
+}
+
+.huruf-tebal {
+    font-style: initial;
+}
+
+ul li {
+    color: #fff;
+    background: darkorange;
+    display: block;
+    border: 1px blue;
+    float: left;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+ul li a {
+    color: #fff;
+}
+
+ul li:hover {
+    background: red;
+    cursor: pointer;
+}
