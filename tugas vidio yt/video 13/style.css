@@ -1,0 +1,60 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Footer */
+.footer {
+    background-color: #6C757D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Main container */
+.container {
+    display: flex;
+    flex: 1; /* Fills the available vertical space */
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1; /* Takes 1 part of available space */
+    background-color: #FF5733;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Main Content */
+.content {
+    flex: 3; /* Takes 3 parts of available space */
+    background-color: #28A745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
